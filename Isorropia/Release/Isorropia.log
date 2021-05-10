@@ -1,0 +1,9 @@
+﻿  Main.cpp
+  Isorropia.cpp
+     Creating library D:\DATA\Code\Projects\Isorropia\Release\dxgi.lib and object D:\DATA\Code\Projects\Isorropia\Release\dxgi.exp
+  Generating code
+  18 of 18 functions (100.0%) were compiled.
+    0 functions were new in current compilation
+    0 functions had inline decision re-evaluated but remain unchanged
+  Finished generating code
+  Isorropia.vcxproj -> D:\DATA\Code\Projects\Isorropia\Release\dxgi.dll

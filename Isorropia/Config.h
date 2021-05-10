@@ -1,0 +1,15 @@
+#ifndef __CONFIG_H__
+#define __CONFIG_H__
+
+#ifdef _DEBUG
+#define ISORROPIA_DEBUG
+#endif
+
+#define ISORROPIA_CONFIG_FILENAME				"isorropia.ini"
+#define ISORROPIA_FRAMES_PER_TICK				2
+#define ISORROPIA_TARGET_FPS					30
+#define ISORROPIA_MAX_USAGE_WINDOW_SIZE			50
+#define ISORROPIA_FRAMES_PER_PRINT				250
+#define ISORROPIA_USAGE_RESPONSIVENESS_TICKS	5
+
+#endif // __CONFIG_H__

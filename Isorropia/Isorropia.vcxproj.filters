@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Def">
+      <UniqueIdentifier>{4d3f9883-7c7e-4b0d-ba95-af16e3a3517c}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Main.cpp" />
+    <ClCompile Include="Isorropia.cpp" />
+    <ClCompile Include="Common.cpp" />
+    <ClCompile Include="GPUPerf_NV.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Config.h" />
+    <ClInclude Include="GPUPerf.h" />
+    <ClInclude Include="Common.h" />
+    <ClInclude Include="Isorropia.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Isorropia.def">
+      <Filter>Def</Filter>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <MASM Include="Payload.asm" />
+  </ItemGroup>
+</Project>

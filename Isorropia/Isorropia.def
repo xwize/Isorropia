@@ -1,0 +1,10 @@
+EXPORTS
+CreateDXGIFactory=Proxy_CreateDXGIFactory @11
+CreateDXGIFactory1=Proxy_CreateDXGIFactory1 @12
+CreateDXGIFactory2=Proxy_CreateDXGIFactory2 @13
+DXGID3D10CreateDevice=Proxy_DXGID3D10CreateDevice @14
+DXGID3D10CreateLayeredDevice=Proxy_DXGID3D10CreateLayeredDevice @15
+DXGID3D10GetLayeredDeviceSize=Proxy_DXGID3D10GetLayeredDeviceSize @17
+DXGID3D10RegisterLayers=Proxy_DXGID3D10RegisterLayers @18
+DXGIDumpJournal=Proxy_DXGIDumpJournal @4
+DXGIReportAdapterConfiguration=Proxy_DXGIReportAdapterConfiguration @21
